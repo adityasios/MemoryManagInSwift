@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40A2298821F6CA4F00F3BDD1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2298721F6CA4F00F3BDD1 /* Model.swift */; };
+		40A2298A21F6CB4100F3BDD1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 40A2298921F6CB4100F3BDD1 /* README.md */; };
 		40D3AA2D21F603530066C386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3AA2C21F603530066C386 /* AppDelegate.swift */; };
 		40D3AA2F21F603530066C386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3AA2E21F603530066C386 /* ViewController.swift */; };
 		40D3AA3221F603530066C386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D3AA3021F603530066C386 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40A2298721F6CA4F00F3BDD1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		40A2298921F6CB4100F3BDD1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		40D3AA2921F603520066C386 /* MemoryManagInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryManagInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D3AA2C21F603530066C386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40D3AA2E21F603530066C386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		40D3AA2021F603520066C386 = {
 			isa = PBXGroup;
 			children = (
+				40A2298921F6CB4100F3BDD1 /* README.md */,
 				40D3AA2B21F603520066C386 /* MemoryManagInSwift */,
 				40D3AA2A21F603520066C386 /* Products */,
 			);
@@ -56,6 +61,7 @@
 			children = (
 				40D3AA2C21F603530066C386 /* AppDelegate.swift */,
 				40D3AA2E21F603530066C386 /* ViewController.swift */,
+				40A2298721F6CA4F00F3BDD1 /* Model.swift */,
 				40D3AA3021F603530066C386 /* Main.storyboard */,
 				40D3AA3321F6035A0066C386 /* Assets.xcassets */,
 				40D3AA3521F6035A0066C386 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				40D3AA3721F6035A0066C386 /* LaunchScreen.storyboard in Resources */,
 				40D3AA3421F6035A0066C386 /* Assets.xcassets in Resources */,
+				40A2298A21F6CB4100F3BDD1 /* README.md in Resources */,
 				40D3AA3221F603530066C386 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A2298821F6CA4F00F3BDD1 /* Model.swift in Sources */,
 				40D3AA2F21F603530066C386 /* ViewController.swift in Sources */,
 				40D3AA2D21F603530066C386 /* AppDelegate.swift in Sources */,
 			);
@@ -285,11 +293,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPK4XC758S;
 				INFOPLIST_FILE = MemoryManagInSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test.MemoryManagInSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,11 +312,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPK4XC758S;
 				INFOPLIST_FILE = MemoryManagInSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test.MemoryManagInSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -12,9 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        var kelvin: Person?
+        var iphone: Gadget?
+        
+        kelvin = Person(name: "Kelvin")
+        iphone = Gadget(model: "iPhone 8 Plus")
+        kelvin?.gadget = iphone
+        iphone?.owner = kelvin
+        
+        //kelvin = nil
+        //iphone = nil
+        
     }
-
-
 }
 
