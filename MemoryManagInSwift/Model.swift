@@ -8,25 +8,30 @@
 
 import Foundation
 
-class Person {
-    let name: String
-    weak var gadget: Gadget?
+
+
+class Human {
     
-    init(name: String) {
+    let name: String
+    var house: Apartment?
+    
+    
+    init(name:String) {
         self.name = name
-        print("\(name) is being initialized")
+        print("\(self.name) is being initialized")
     }
     
     deinit {
-        print("\(name) is being deinitialized")
+        print("\(name) is being deinitialized ")
     }
 }
 
 
-class Gadget {
+
+class Apartment {
     
     let model: String
-    var owner: Person?
+    var tenant: Human?
     
     init(model: String) {
         self.model = model
@@ -37,3 +42,10 @@ class Gadget {
         print("\(model) is being deinitialized")
     }
 }
+
+
+
+
+
+
+
